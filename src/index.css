@@ -1,0 +1,131 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  background-color: whitesmoke;
+}
+.head-div{
+  display: flex;
+  padding-top: 1rem;
+  width: 100%;
+  width: 90%;
+  margin: 0 auto;
+  background-color: rgb(202, 228, 236);
+  padding: 1rem;
+  justify-content:space-between;
+  align-items: center;
+  gap: 3rem;
+}
+
+
+.head-div>div{
+  width: 50%;
+  align-self: self-start;
+  padding: 1rem;
+  background-color: whitesmoke;
+  border-radius: 10px;
+}
+.head-lib{
+  margin: 2rem;
+  font-size: 2rem;
+  font-weight: 550;
+  border-bottom: 1px solid grey;
+}
+.lib{
+  font-size: .8rem;
+  display: flex;
+  background-color: lightcyan;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  padding: .3rem 0;
+}
+.library{
+  margin-bottom: 3rem;
+}
+.lib>:first-child{
+  font-weight: bold;
+  font-size: .8rem;
+}
+.new>h2{
+  /* margin-bottom: 2rem; */
+  font-size: 2rem;
+  font-weight: 550;
+  border-bottom: 1px solid grey;
+}
+input{
+  padding: .3rem 1rem;
+  width: 90%;
+  margin: 1rem 0;
+  outline: none;
+  border-radius: 5px;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  font-size: .9rem;
+  border-bottom: 0.5px solid gray;
+}
+label>.inn{
+  width: 5%;
+  margin-top: -1rem;
+}
+.btn {
+  width: fit-content;
+  margin-left: auto;
+  margin-top: 1rem;
+  margin-right: 1rem;
+}
+.btn>button{
+  padding: .5rem 2rem;
+  font-size: 1rem;
+  border-radius: 5px;
+  border: 0.5px solid white;
+  background-color: blue;
+  color: white;
+  cursor: pointer;
+  margin-right: 1rem;
+}
+.notice{
+  height: 5rem;
+}
+.notify{
+ display: flex;
+ align-items: center;
+ justify-content: space-between;
+ width: 90%;
+ margin:auto ;
+ padding:auto 0;
+ height: 5rem;
+ 
+}
+.red{
+  background-color: red;
+  color: white;
+}
+.green{
+  background-color: green;
+  color: white;
+}
+.x{
+  padding: .4rem .8rem;
+  background-color: white;
+  color: black;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+
+
